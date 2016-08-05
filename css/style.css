@@ -90,7 +90,7 @@ h2 {
   font-size: 48px;
   line-height: 60px;
   font-weight: 400;
-  margin-bottom: 70px; }
+  margin-bottom: 30px; }
   h2 i {
     font-style: italic; }
 
@@ -184,7 +184,7 @@ p {
   margin-top: 57px; }
 
 .margin-top-27 {
-  margin-top: 28px; }
+  margin-top: 27px; }
 
 .margin-top-20 {
   margin-top: 20px; }
@@ -550,7 +550,7 @@ p {
 /** Intro Sec CSS **/
 /****************************/
 .intro-sec {
-  background: url(../img/2.jpg);
+  background: url(../images/2.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .intro-sec #countdown {
@@ -659,7 +659,7 @@ p {
 /** About Sec CSS **/
 /****************************/
 .about-sec {
-  background: url(../img/bg2.jpg);
+  background: url(../images/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .about-sec .icon {
@@ -981,7 +981,7 @@ p {
 /** Portfolio Sec CSS **/
 /****************************/
 .portfolio-sec {
-  background: url(../img/bg7.jpg);
+  background: url(../images/bg7.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .portfolio-sec .portfolio-wrap {
@@ -2313,7 +2313,7 @@ top:40px;
 }
 .messgg{text-align:center; width:100%; margin-top:-150px; margin-bottom:50px; padding-right:160px; position:relative; font-size:20px;
 }
-.messgg:after{
+/*.messgg:after{
   content: '';
     position: absolute;
     height: 180px;
@@ -2321,7 +2321,7 @@ top:40px;
     width: 9px;
     left: 38.26210%;
     top: 44px;
-}
+}*/
 
 @media (max-width : 1024px) {
 .messgg{text-align:center; width:100%; margin-top:-150px; margin-bottom:50px; padding-right:160px; position:relative; font-size:20px;
@@ -2377,3 +2377,27 @@ top:40px;
     background: rgba(255, 255, 255, 0.71);
     color: #404040;
 }
+.becomemember span a{
+  text-decoration:none;
+  color:#404040;
+  
+}
+
+
+.partner_slider .item {
+  text-align: center;
+}
+.partner_slider .item img {
+    width: auto;
+    display: inline-block;
+}
+.partner_slider .item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }

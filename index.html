@@ -16,43 +16,49 @@
 
 <!--CSS-->
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+
+
+
+
+
 </head>
 
 <body id="body" data-ng-app="contactApp" class="dark-theme pink-color">
 
-<!--Preloader--> 
+<!--Preloader-->
 <!--<div class="preloader-it">
   <div class="la-anim-1"></div>
-</div>--> 
+</div>-->
 <!--/Preloader--> 
 
 <!--Navigation-->
 <div class="menu-wrap">
   <nav class="menu">
     <div id="menu" class="icon-list">
-      <div data-menuanchor="home_sec" class="active"><a class="menu-link" href="#home_sec"><span>home</span></a></div>
-      <div data-menuanchor="about_sec"><a class="menu-link" href="about_ncn.html"><span>about</span></a></div>
-      <div data-menuanchor="services_sec"><a class="menu-link" href="#services_sec"><span>services</span></a></div>
+      <div data-menuanchor="home_sec" class="active"><a class="menu-link" href="index.html"><span>home</span></a></div>
+      <div data-menuanchor="about_sec"><a class="menu-link" href="about_ncn"><span>About NCN</span></a></div>
+      <div data-menuanchor="services_sec"><a class="menu-link" href="services.html"><span>services</span></a></div>
       <div data-menuanchor="contact_sec"><a href="#contact_sec"><span>contact</span></a></div>
       <!--<div data-menuanchor="features_sec"><a class="menu-link" href="#features_sec"><span>features</span></a></div>
       <div data-menuanchor="video_sec"><a class="menu-link" href="#video_sec"><span>video</span></a></div>
       <div data-menuanchor="portfolio_sec"><a class="menu-link" href="#portfolio_sec"><span>portfolio</span></a></div>
       <div data-menuanchor="team_sec"><a href="#team_sec"><span>team</span></a></div>
       
-      <div data-menuanchor="googlemap_sec"><a href="#googlemap_sec"><span>google map</span></a></div>--> 
+      <div data-menuanchor="googlemap_sec"><a href="#googlemap_sec"><span>google map</span></a></div>-->
     </div>
   </nav>
   
-  <!--Twitter Sec--> 
+  <!--Twitter Sec-->
   <!--<div class="twitter-wrap"> <span class="twiter-ico-wrap"> <i class="fa fa-twitter"></i> </span>
     <div id="tweecool"></div>
-  </div>--> 
+  </div>-->
   <!--/Twitter Sec--> 
 </div>
 <div class="right-patch">
-  <div class="copywrite-wrap">
-    <p class="copywrite"><b>Company Name &copy; 2016.</b></p>
-  </div>
+  
 </div>
 <button class="menu-button hamburger hamburger--collapse" id="open-button"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> </button>
 
@@ -63,19 +69,17 @@
   
   <!--Home Sec-->
   
+
   <section class="section intro-sec text-center parallax" id="section0">
     <div class="intro-sec-wrap sec-pad"> 
       
       <!--Logo-->
-      <div class="logo"> <img src="images/logo.png" alt="logo"/> </div>
+      <div class="logo"> <img src="images/water.png" alt="logo" style="    margin-left: -321px; max-width: 50%;" /> </div>
       <!--/Logo-->
-      <!--Login-->
       <div class="login_reg">
-      <span><a href="#">Login</a></span>
-      <span><a href="#">Register</a></span>
-      </div>
-      <!--End-->
-      
+  <span><a href="#">Login</a></span>
+  <span><a href="#">Register</a></span>
+  </div>
       <div class="container">
         <h5> 
           <!--Counter--> 
@@ -121,8 +125,8 @@
   <!--About Sec-->
   <section class="section about-sec parallax" id="section1">
     <div class="about-sec-wrap sec-pad-top sec-pad-bottom-sm">
-      <div class="container"> 
-        <!--<h2 class="text-center wow fadeInUp" data-wow-duration=".8s">We work for a <i>purpose</i> &amp; we believe in it.</h2>--> 
+      <div class="container">
+        <!--<h2 class="text-center wow fadeInUp" data-wow-duration=".8s">We work for a <i>purpose</i> &amp; we believe in it.</h2>-->
         <!--<div class="row">
           <div class="col-sm-6">
             <p class="margin-bottom-30 wow fadeInLeft" data-wow-duration=".8s"> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
@@ -132,57 +136,121 @@
           </div>
         </div>-->
         <div class="about-features margin-top-27">
-          <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-              <div class="first-circle hvr-radial-out wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 900ms; animation-name: fadeInLeft;"> Corporate Social Responsibility (CSR) </div>
-              <div class="first-circle ml40minus hvr-radial-out wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="900ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 900ms; animation-name: fadeInRight;"> National CSR Network- A Catalyst </div>
-            </div>
+          <div class="row animatedParent" data-sequence="500">
+          <div class="col-sm-8 col-sm-offset-2">
+          <!--<div class="circle-bg hvr-radial-out">
+          <span>Corporate Social Responsibility (CSR)</span>
+          <p>Company's commitment towards society while contributing to economic development </p>
+          </div>-->
+          
+          <!--<div class="circle-bg ml40minus hvr-radial-out">
+          <span>National CSR Network- A Catalyst</span>
+          <p>Act as a catalyst to empower companies to integrate CSR in business</p>
+          </div>-->
+          <div class="messgg">
+          <span>Enhance your Company's  reputation and brand </span>
+
+          </div>
+          
+          <div class="col-md-4">
+          <div class="circl animated bounceInLeft slower go" data-id="4">
+           <p>Company's commitment towards society while contributing to economic development</p>
+          <div class="circlinner">
+          <h3>Corporate Social Responsibility (CSR)</h3>
+          
+          </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+          <div class="circl buttons-inline animated bounceInRight slower go" data-id="5">
+           <p>Act as a catalyst to empower companies to integrate CSR in business</p>
+          <div class="circlinner">
+          <h3>National CSR Network- A Catalyst</h3>
+          
+          </div>
+          </div>
+          </div>
+          
+          </div>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!--/About Sec--> 
+   
   
-  
-  <!--Features Sec-->
-  <section class="section features-sec parallax" id="section3">
-    <div class="features-sec-wrap sec-pad">
+  <!--Portfolio Sec-->
+  <section class="section portfolio-sec parallax" id="section5">
+    <div class="portfolio-sec-wrap sec-pad">
       <div class="container">
-        <h2 class="text-center wow fadeInUp" data-wow-duration=".8s">How It Works</h2>
-        <div class="features-wrap">
-          <div class="row-wrap">
-            <div class="col-lg-3  col-xs-6">
-              <div class="wow bounceIn fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 900ms; animation-name: bounceIn;">
-                <div class="works"> <a class="example-image-link img-responsive" href="img/project1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."> <img class="example-image" src="img/project1.jpg" alt=""/></a> </div>
-              </div>
+        <h2 class="text-center wow fadeInUp" data-wow-duration=".8s">Our <i>Work</i>.</h2>
+      </div>
+      <div class="portfolio-wrap wow bounceIn" data-wow-duration=".8s"> 
+        
+        <!--Rotational Slider-->
+        <div id="rot_slider" class="rotateslider-container">
+          <div id="portfolio">
+            <div class="rotateslider-item" data-src="images/1.jpg"  data-sub-html="<h6>Instagram</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="images/1.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <!--<h6>Natural Life of Photographs, Instagram</h6>-->
             </div>
-            <div class="col-lg-3  col-xs-6">
-              <div class="wow bounceIn fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 900ms; animation-name: bounceIn;">
-                <div class="works"> <a class="example-image-link img-responsive" href="img/project1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."> <img class="example-image" src="img/project1.jpg" alt=""/></a> </div>
-              </div>
+            <div class="rotateslider-item" data-src="images/1.jpg"  data-sub-html="<h6>Nativ Place</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="images/1.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <!--<h6>Music for Class, Nativ Place</h6>-->
             </div>
-            <div class="col-lg-3  col-xs-6">
-              <div class="wow bounceIn fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 900ms; animation-name: bounceIn;">
-                <div class="works"> <a class="example-image-link img-responsive" href="img/project1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."> <img class="example-image" src="img/project1.jpg" alt=""/></a> </div>
-              </div>
+            <div class="rotateslider-item" data-src="images/3.jpg"  data-sub-html="<h6>Dog.inc</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="images/3.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <!--<h6>Inside Studio, Dog.inc</h6>-->
             </div>
-            <div class="col-lg-3  col-xs-6">
-              <div class="wow bounceIn fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="900ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 900ms; animation-name: bounceIn;">
-                <div class="works"> <a class="example-image-link img-responsive" href="img/project1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."> <img class="example-image" src="img/project1.jpg" alt=""/></a> </div>
-              </div>
+            <div class="rotateslider-item" data-src="images/4.jpg"  data-sub-html="<h6>Dog.inc</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="images/4.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <!--<h6>Inside Studio, Dog.inc</h6>-->
             </div>
+            <div class="rotateslider-item" data-src="images/5.jpg"  data-sub-html="<h6>Dog.inc</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="images/5.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <!--<h6>Inside Studio, Dog.inc</h6>-->
+            </div>
+            <!--<div class="rotateslider-item" data-html="#video1" data-poster="img/project4.jpg" data-sub-html="<h6>Viva</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="img/project4.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <h6>Fox in the Town, Viva</h6>
+            </div>-->
+            <!--<div class="rotateslider-item"  data-src="http://www.youtube.com/watch?v=Pq9yPrLWMyU" data-poster="img/project5.jpg" data-sub-html="<h6>Oh Girls</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="img/project5.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <h6>Oh Girls</h6>
+            </div>-->
+            <!--<div class="rotateslider-item"  data-src="img/project6.jpg"  data-sub-html="<h6>Tattoo Diaries</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>"> <a href="#"> <img src="img/project6.jpg" alt="project">
+              <div class="hover"><span>+</span></div>
+              </a>
+              <h6>Tattoo Diaries</h6>
+            </div>-->
           </div>
-        </div>
+          <span class="arrow right js-rotateslider-arrow" data-action="next"><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></span>
+           <span class="arrow left js-rotateslider-arrow" data-action="prev"><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></span> </div>
+        <!--/Rotational Slider--> 
+        
+        
       </div>
     </div>
   </section>
-  <!--/Features Sec--> 
+  <!--/Portfolio Sec--> 
+  
+  <!--Team Sec-->
+  
+  <!--/Team Sec--> 
+  
   <!--Contact Sec-->
   <section class="section contact-sec parallax" id="section7">
-    <div class="contact-sec-wrap sec-pad-top sec-pad-bottom-sm wow fadeInUp" data-wow-duration=".8s">
+    <div class="contact-sec-wrap sec-pad-top sec-pad-bottom-sm wow " data-wow-duration=".8s">
       <div class="container" data-ng-controller="ContactController">
-        <h2 class="text-center">Hello <span  data-ng-bind="formData.inputName||'friend'"></span>, We'd love to<br/>
+        <h2 class="text-center">Hello <i><span  data-ng-bind="formData.inputName||'friend'"></span></i>, We'd love to<br/>
           hear from you.</h2>
         <form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" class="row form-horizontal" role="form">
           
@@ -249,32 +317,6 @@
 </div>
 <!--/Main Content--> 
 
-<!--Notify Popup-->
-<div class="md-modal md-effect-2" id="modal-2">
-  <div class="md-content notify-cmpt notify-form-type-3">
-    <div class="md-content-wrap notify-wrap">
-      <div class="md-close" id="notify_close"><span>X</span></div>
-      <h2>Subscribe & Stay Updated</h2>
-      <p class="margin-top-xs-20">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-      <form id="notifyMe" class="contact-form" action="" method="post">
-        <div class="input-wrap">
-          <input  data-ng-model="notify" class="col-lg-10  align-center form-control input notify-input-box" name="email" placeholder="Your Email ID"  type="email">
-          <div class="clearfix"></div>
-          <button type="submit"  class="btn btn-default progress-button btn-submit align-center"> Notify me <span class="mask"></span> </button>
-        </div>
-      </form>
-    </div>
-    <div class="md-opac"></div>
-  </div>
-</div>
-<div class="md-overlay"></div>
-<!--/Notify Popup--> 
-
-<!--Style-customizer --> 
-<!--<div id="app_customizer" class="app-customizer"> <a href="#" class="app-customizer-toggle"> <i class="fa fa-gear"></i> </a>
-  <div class="colors"> <span id="pink_pick"></span> <span id="blue_pick"></span> <span id="green_pick"></span> <span id="orange_pick"></span> </div>
-</div>--> 
-<!-- /Style-customizer --> 
 
 <!-- Scripts --> 
 <script src="js/jquery-1.11.3.min.js"></script> 
@@ -283,7 +325,6 @@
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/modernizr.custom.js"></script> 
 <script src="js/app.js"></script> 
-<script src="js/lightbox-plus-jquery.min.js"></script><!--Gall--> 
 <script src="js/controllers.js"></script> 
 <script src="js/owl.carousel.min.js"></script> 
 <script src="js/notifyMe.js"></script> 
@@ -302,8 +343,8 @@
 <script src="js/tweecool.js"></script> 
 <script src="js/jquery.placeholder.js"></script> 
 <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script> 
-<script src="js/init.js"></script> 
+<script src="js/init.js"></script>
+<script src="js/css3-animate-it.js"></script>
 
-<!--<script src="js/jquery-1.9.1.min.js"></script>-->
 </body>
 </html>

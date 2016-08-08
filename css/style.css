@@ -550,7 +550,7 @@ p {
 /** Intro Sec CSS **/
 /****************************/
 .intro-sec {
-  background: url(../img/2.jpg);
+  background: url(../images/2.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .intro-sec #countdown {
@@ -659,7 +659,7 @@ p {
 /** About Sec CSS **/
 /****************************/
 .about-sec {
-  background: url(../img/bg2.jpg);
+  background: url(../images/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .about-sec .icon {
@@ -981,7 +981,7 @@ p {
 /** Portfolio Sec CSS **/
 /****************************/
 .portfolio-sec {
-  background: url(../img/bg7.jpg);
+  background: url(../images/bg7.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .portfolio-sec .portfolio-wrap {

@@ -5,7 +5,6 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>:: NGO ::</title>
-
 <!--Favicon-->
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -41,7 +40,7 @@
       <div data-menuanchor="home_sec" class="active"><a class="menu-link" href="index.html"><span>home</span></a></div>
       <div data-menuanchor="about_sec"><a class="menu-link" href="about_ncn.html"><span>About NCN</span></a></div>
       <div data-menuanchor="services_sec"><a class="menu-link" href="csr_page.html"><span>About CSR</span></a></div>
-      <div data-menuanchor="contact_sec"><a href="#contact_sec"><span>contact</span></a></div>
+      <div data-menuanchor="contact_sec"><a href="exposure.html"><span>Exposure</span></a></div>
       <!--<div data-menuanchor="features_sec"><a class="menu-link" href="#features_sec"><span>features</span></a></div>
       <div data-menuanchor="video_sec"><a class="menu-link" href="#video_sec"><span>video</span></a></div>
       <div data-menuanchor="portfolio_sec"><a class="menu-link" href="#portfolio_sec"><span>portfolio</span></a></div>
@@ -248,69 +247,102 @@
   
   <!--Contact Sec-->
   <section class="section contact-sec parallax" id="section7">
-    <div class="contact-sec-wrap sec-pad-top sec-pad-bottom-sm wow " data-wow-duration=".8s">
-      <div class="container" data-ng-controller="ContactController">
-        <h2 class="text-center">Hello <i><span  data-ng-bind="formData.inputName||'friend'"></span></i>, We'd love to<br/>
-          hear from you.</h2>
-        <form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" class="row form-horizontal" role="form">
-          
-          <!--Address-->
-          <div class="contact-add col-md-2 col-sm-6 col-xs-6 margin-top-xs-15">
-            <h6>contact</h6>
-            <p>Lorem ipsun Doller is the.</p>
-            <a href="mailto:creativehi@coyote.com" target="_blank">creativehi@domain.com</a> <a href="callto:0000000000" target="_blank">+91 00000 00000</a> </div>
-          <!--/Address--> 
-          
-          <!--Contact Form-->
-          <div class="contact-form-wrap col-md-offset-1 col-md-6 col-sm-12 ">
-            <div class="col-sm-6 col-xs-6 pad-left-zero">
-              <div class="form-group" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
-                <div class="input-wrap">
-                  <input autocomplete="off" data-ng-model="formData.inputName" type="text" class="form-control input__field input " id="inputName" name="inputName" placeholder="Name" required>
+
+      
+      
+      
+      
+      <div class="contactBkg">
+	<div class="contactWrapper">
+    	<h2 style="font-family: 'MeetMeInBrooklyn-Regular';
+    font-size: 86px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin-bottom: 10px;">get in touch</h2>
+        <strong>Interested in working together?</strong> Fill out the Project Inquiry form below with some information about your project. Please allow a couple of business days for me to respond.<br><br>
+        
+        <form style="margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; display: block;" method="post" action="formmail.php" name="form2" enctype="multipart/form-data">
+				<input type="hidden" name="recipients" value="deniselchandler@gmail.com">
+				<input type="hidden" name="good_url" value="success.html">
+				<input type="hidden" name="bad_url" value="failure.html">
+				<input type="hidden" name="required" value="realname:Your name,email:Your email address">
+				<input type="hidden" name="subject" value="Denisechandler.com Project Inquiry">		
+			
+            	<div class="contactCol1">
+					<input name="realname" type="text" id="name" placeholder="Name">
+              	</div>	
+              	<div class="contactCol2">
+					<input name="email" type="text" id="email" placeholder="Email">
                 </div>
-              </div>
-              <div class="form-group" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
-                <div class="input-wrap">
-                  <input autocomplete="off" data-ng-model="formData.inputEmail" type="email" class="form-control input input__field " placeholder="Email" id="inputEmail" name="inputEmail" required>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-xs-6 pad-right-zero">
-              <div class="form-group" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
-                <div class="input-wrap">
-                  <textarea data-ng-model="formData.inputMessage" class="form-control input input__field " rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
-                </div>
-              </div>
-            </div>
-            <div class="form-group col-sm-12 col-xs-12 pad-zero">
-              <div class="align-center">
-                <button type="submit" class="btn btn-default" data-ng-disabled="submitButtonDisabled"> <span class="mask"></span> <span>send message</span> </button>
-              </div>
-            </div>
-            <p class="form-msg" data-ng-class="result">{{ resultMessage }}</p>
-          </div>
-          <!--/Contact Form--> 
-          
-          <!--Social Connenctivity-->
-          <div class="connect-add col-md-offset-1 col-md-2 col-sm-6 col-xs-6 margin-top-xs-15">
-            <h6>connect</h6>
-            
-            <!--Social Links-->
-            <ul class="social-links col-sm-4 pad-zero">
-              <li> <a href="#" class="social-link"> facebook </a> </li>
-              <li> <a href="#" class="social-link"> twitter </a> </li>
-              <li> <a href="#" class="social-link"> linkedin </a> </li>
-            </ul>
-            <!--/Social Links--> 
-            
-            <a class="gmap-link" href="https://www.google.com/maps/d/viewer?mid=z_gdBE8F4CM4.kd855LF8lFPo&amp;hl=en_US" target="_blank">
-            <h6>google map</h6>
-            </a> </div>
-          <!-- /Social Connenctivity-->
-          
-        </form>
-      </div>
+              	<div class="contactCol3">
+					<input name="website" type="text" id="website" placeholder="Website">
+                </div>    
+			
+            	<div class="contactCol1">
+					<input name="timeline" type="text" id="timeline" placeholder="Timeline">
+              	</div>
+              	<div class="contactCol2">
+					<input name="budget" type="text" id="budget" placeholder="Budget">
+              	</div>
+              	<div class="contactCol3">
+					<input name="services" type="text" id="services" placeholder="Services Needed">
+              	</div>
+				<div class="space"></div>
+               
+               <div class="comments">
+						<textarea name="textarea" id="comments" style="height:100px;" placeholder="Tell me a little about your project..."></textarea>
+              	</div>		
+				<div class="submit">
+				  <input name="Submit" type="submit" class="submitBtn" value="send">
+				</div>
+			</form>	
     </div>
+</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
   </section>
   <!--/Contact Sec--> 
   

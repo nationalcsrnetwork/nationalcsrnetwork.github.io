@@ -48,6 +48,6 @@
     top: calc(50% - 20px);
 }
 
-.rotateslider-container .arrow.left { left: -72px; }
+.rotateslider-container .arrow.left { left: -120px; }
 
-.rotateslider-container .arrow.right { right: -72px; }
+.rotateslider-container .arrow.right { right: -120px; }

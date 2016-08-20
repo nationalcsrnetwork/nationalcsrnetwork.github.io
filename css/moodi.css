@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+.bg{
+	position:fixed;
+	background:url(../img/serv_bg.jpg) 50%;
+	width:100%;
+	height:100%;
+}
+.main_bg {
+	width:100%;
+	height:100vh;
+	float:left;
+	
+}
+.slide_navi {
+ 	padding: 0;
+    margin: 0;
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10vh;
+    position: absolute;
+    z-index: +3;
+}
+.slide_navi li {
+	display: list-item;
+	margin: 5px 0;
+    margin-bottom: 21px;
+    margin-top: 21px;
+    color: red;
+    font-size: 20px;
+}
+.buble {
+		width:25px;
+	height:26px;
+	background:#ddd;
+	border-radius:50%;
+	position:relative;
+}
+.buble:hover {
+}
+.buble:hover:before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	/*background: #635f5f;*/
+	border-radius: 50%;
+	left: 5px;
+	top: 5px;
+	cursor:pointer;
+}
+.opt0 .optshow {
+	display:none;
+}
+.opt0:hover .optshow {
+	display:block;
+	width:200px;
+	position:absolute;
+	animation-duration: 0.5s;
+  animation-name: slideleft;
+	padding-left:40px;
+	cursor:pointer;
+}
+@keyframes slideleft {
+  0% {
+    padding-left: 0;
+  }
+  25% {
+    padding-left: 10px;
+  }
+  50% {
+    padding-left: 20px;
+  }
+  75% {
+    padding-left: 30px;
+  }
+  100% {
+    padding-left: 40px;
+  }
+}
+.contntt {
+	position:absolute;
+	right:0px;
+	top:60vh;
+	width:100%;
+}
+.targetDiv {
+	display:none;
+}
+.shw1 {
+	display:block;
+}
+.titt {
+	position: absolute;
+	top: 32%;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 60%;
+	color: #fff;
+	text-align: center;
+}
+
+.abotcont{
+	width:100%;
+	display:inline-block;
+	height:100%;
+}
+.divfixx{
+	height:450px;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #000;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #000;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #fff;
+	border: 2px solid #fff;
+}
+.areaa{
+	width: 100%;
+    max-width: 1170px;
+    margin: 50px auto 0;
+    display: block;
+    background: url(../img/strick.jpg) center center repeat-y;
+    position: relative;
+    height: auto;
+    padding: 0 0 50px;
+	float:left;
+}
+.areaa li{
+	width:46%;
+	/*min-height: 100px;*/
+	float:left;
+	border:1px solid rgba(236, 236, 236, 0.47);
+	margin:35px 0;
+	border-radius:12px;
+	position: relative;
+	text-align:left;
+	padding:20px 24px 20px;
+	font-style: italic;
+	cursor:pointer;
+}
+.areaa li.mt30{
+	margin-top: 80px;
+    float: right !important;
+}
+.areaa li.mt40{
+	margin-top:40px !important;
+}
+.areaa li.mt30:after{
+	content:'';
+		position:absolute;
+		left:-10.7%;
+		display:block;
+		width:21px;
+		height:21px;
+		background:white;
+		border-radius:100px;
+		top:22px;
+		z-index:20;
+}
+.areaa li.arrow:after{
+		content:'';
+		position:absolute;
+		right:-11.1%;
+		/*right: auto;*/
+		display:block;
+		width:21px;
+		height:21px;
+		background:white;
+		border-radius:100px;
+		top:22px;
+		z-index:20;
+	}
+.areaa li .fa{
+	color:#ff6d01;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------Histry-----------------*/

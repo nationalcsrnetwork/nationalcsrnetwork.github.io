@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* Style_DG CSS Document */
+
+html { background:#072d66 url(/images/bg_main.jpg) 0 0 repeat-x; height:100%; width:100%; }
+.main { width:1000px; margin:auto;}
+.show {	height: 450px; overflow: hidden; width:950px; margin:30px auto; clear:both;}
+.roundabout-holder { list-style: none; height: 450px; margin-left: 4em; margin-right: 4em; }
+.roundabout-moveable-item { cursor: pointer; width: 290px; height: 275px; text-align: center; font-size:18px; color:#03C; zoom: 1}
+.roundabout-holder img {cleartype: true; cleartypeNoBg: true; outline:none; border-radius:10px; border:2px solid #ddd; height:220px;}
+.roundabout-holder span { font-size:0.8em; color:#FFF; position:absolute; bottom:1em; display:none; text-align:center; width:100%}
+.roundabout-moveable-item div.dis_b { font:bold 1em/2.5em Arial; background:url(/images/h2_bg.gif)}
+.roundabout-in-focus { cursor: auto;}
+.dg{visibility:hidden}
+.loader { position:absolute;width:50px;margin-top:250px;margin-left:400px;}

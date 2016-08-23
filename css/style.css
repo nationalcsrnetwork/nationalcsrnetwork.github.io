@@ -139,6 +139,44 @@ p {
 /****************************/
 /** Main **/
 /****************************/
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .pad-zero {
 	padding: 0;
 }
@@ -599,17 +637,18 @@ p {
 	margin-bottom: 37px;
 }
 .intro-sec .social-icons {
-	left: 50px;
-	position: absolute;
-	bottom: 50px;
+	
+    left: 1058px;
+    position: absolute;
+    bottom: 50px;
 }
 .intro-sec .social-icons li {
-	border: 1px solid rgba(255, 255, 255, 0.2);
+/*	border: 1px solid rgba(255, 255, 255, 0.2);*/
 	border-radius: 50%;
 	display: inline-block;
 	float: left;
 	height: 50px;
-	margin-right: 12px;
+	margin-right: 4px;
 	width: 50px;
 }
 .intro-sec .social-icons li div {
@@ -2641,11 +2680,11 @@ font-size:20px;
 }
 .messgg span {
 	padding: 2% 9%;
-	border: 1px solid rgb(185, 143, 0);
+/*	border: 1px solid rgb(185, 143, 0);*/
 	border-radius: 32px;
 	color: #ffffff;
 	font-size: 100%;
-	background: rgb(185, 143, 0);
+	background: #9ca51a
 }
 .membershipbox {
 	float: left;
@@ -3229,7 +3268,8 @@ font-size:20px;
 	width: 300px;
 	height: 300px;
 	padding: 70px 10px 50px;
-	background:rgba(255, 0, 0, 0.36);
+/*	background:rgba(255, 0, 0, 0.36);*/
+        background: #152548;
 	border-radius: 50%;
 	-webkit-transition: all 1s ease-out;
 	-moz-transition: all 1s ease-out;

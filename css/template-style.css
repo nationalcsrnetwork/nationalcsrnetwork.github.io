@@ -63,15 +63,8 @@ a.color-btn:hover, form.customform button.color-btn:hover {
 	cursor: pointer;
 	opacity: 1;
 }
-nav {
-	background: none repeat scroll 0 0 #00283a;
-}
-header {
-	border-bottom: 4px solid rgba(0, 40, 58, 0.53);
-	position: fixed;
-	width: 100%;
-	z-index: 10;
-}
+
+
 p.logo {
 	color: #fff;
 	font-size: 1.7em;

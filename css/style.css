@@ -2584,27 +2584,28 @@ text-transform:capitalize !important;
 /*2nd Part==========*/
 
 .hlth {
-	background:url(../img/health.jpg) 50% 50% !important;
+	background:url(../img/networkingforum/areas/health.jpg) 50% 50% !important;
 }
 .envirn {
-	background:url(../img/envirnment.jpg) 50% 50% !important;
+	background:url(../img/networkingforum/areas/envirnment.jpg) 50% 50% !important;
 }
 .educ {
-	background:url(../img/education.jpg) 50% 50% !important;
+	background:url(../img/networkingforum/areas/education.jpg) 50% 50% !important;
 }
 .skill {
-	background:url(../img/skill.jpg) 50% 50% !important;
+	background:url(../img/networkingforum/areas/skill.jpg)
+        50% 50% !important;
 }
 
-.envirn {
-	background:url(../img/envirnment.jpg) 50% 50% !important;
+.csr {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/networkingforum/areas/CSR.png) 50% 50% !important;
 }
-.csrboxxcirclesmll:hover .educ {
+/*.csrboxxcirclesmll:hover .educ {
 	background:url(../img/education.jpg) 50% 50% !important;
 }
 .csrboxxcirclesmll:hover .skill {
 	background:url(../img/skill.jpg) 50% 50% !important;
-}
+} */
 .csrboxxcirclesmll:hover .seccircl h3 {
 	color:#fff;
 	font-size: 100%;
@@ -2883,8 +2884,9 @@ font-size:20px;
 }
 .redm {
 	padding: 5px 8px;
-	background: #000;
-	border-radius: 4px;
+    background: #fcf8e3;
+    border-radius: 55px;
+    text-decoration: none;
 }
 /*Circle for mmnership*/
 .csrboxx1 {
